@@ -19,5 +19,5 @@ from rtsp.views import source_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path()
+    path('source', source_view)
 ]
